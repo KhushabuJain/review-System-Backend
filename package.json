@@ -1,0 +1,20 @@
+{
+  "name": "feedback-system",
+  "version": "1.0.0",
+  "description": "the backend project of traning and placement department ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    
+    "start":"node index.js",
+    "dev":"nodemon index.js"
+  },
+  "author": "khushabu jain",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "nodemon": "^3.1.7"
+  }
+}
